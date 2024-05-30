@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/WWI2021/Semester%206/Machine%20Learning%20Project/LSTM_BTC/mlruns/609496284638524771/0822c60b1b934897b9ebb0f178452c3e/artifacts
+end_time: 1717066160232
+entry_point_name: ''
+experiment_id: '609496284638524771'
+lifecycle_stage: active
+run_id: 0822c60b1b934897b9ebb0f178452c3e
+run_name: glamorous-gnu-593
+run_uuid: 0822c60b1b934897b9ebb0f178452c3e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717066150515
+status: 3
+tags: []
+user_id: ronec
