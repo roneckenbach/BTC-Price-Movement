@@ -21,6 +21,12 @@ Use Python version 3.10.7 for this project. For reproducibility, create a virtua
 source venv/bin/activate
 pip install -r requirements.txt
 ````
+If the installation using the requirements.txt file does not work, use this command:
+```bash
+!pip install pandas numpy seaborn matplotlib scikit-learn tensorflow mlflow ta
+
+```
+
 
 ### MLflow Lifecycle Management
 
