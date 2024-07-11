@@ -1,12 +1,8 @@
-mlflow server --backend-store-uri sqlite:///mlflow.db --default-artifact-root ./mlruns --host 127.0.0.1 --port 8080
-
-.\venv\Scripts\activate
-
 # BTC Price Movement Prediction
 
-Dieses Repository enthält den Code für die Vorhersage der Bitcoin-Preisbewegung unter Verwendung eines hybriden CNN- LSTM-Modells. Das Modell wird mit historischen Preisdaten und technischen Indikatoren trainiert, um die zukünftige Preisbewegung vorherzusagen.
+This repository contains the code for predicting Bitcoin price movements using a hybrid CNN-LSTM model. The model is trained with historical price data and technical indicators to forecast future price movements.
 
-### Projektstruktur
+### Project structure
 
 ```bash
 │
@@ -19,21 +15,20 @@ Dieses Repository enthält den Code für die Vorhersage der Bitcoin-Preisbewegun
 └── requirements.txt
 ```
 ### Installation
-
-Die verwendete Python-Version ist 3.10.7. Für die Reproduzierbarkeit erstelle eine virtuelle Umgebung und installiere die benötigten Bibliotheken mit den folgenden Befehlen:
-
+Use Python version 3.10.7 for this project. For reproducibility, create a virtual environment and install the required libraries using the following commands:
 ```bash
-Unter Windows: `python -m venv venv`
+`python -m venv venv`
 source venv/bin/activate
 pip install -r requirements.txt
 ````
 
 ### MLflow Lifecycle Management
 
-Das Projekt verwendet MLflow um das Training des Modells mit unterschiedlichen Parameter-Kombinationen aufzuzeichnen. Um Zugriff auf das Dashboard zu erhalten, führe den folgenden Befehl im Terminal aus:
+The project uses MLflow to record the training of the model with different parameter combinations. To access the dashboard, run the following command in the terminal:
 
 ```bash
 mlflow server --backend-store-uri sqlite:///mlflow.db --default-artifact-root ./mlruns --host 127.0.0.1 --port 8080
 ```
-Beim Ausführen der main.ipynb wird vor dem Trainingsprozess ein neues Experiment angelegt und die relevanten Metriken geloggt. 
+When running the main.ipynb, a new experiment is created before the training process. The code contains the code for logging all relevant metrics for each run.
+
 
