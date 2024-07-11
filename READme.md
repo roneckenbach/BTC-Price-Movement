@@ -29,11 +29,9 @@ pip install -r requirements.txt
 
 ### MLflow Lifecycle Management
 
-The project uses MLflow to record the training of the model with different parameter combinations. To access the dashboard, run the following command in the terminal:
+The project uses MLflow to record the training of the model with different parameter combinations. To create a default experiment and access the dashboard, run the following command in the terminal:
 
 ```bash
 mlflow server --backend-store-uri sqlite:///mlflow.db --default-artifact-root ./mlruns --host 127.0.0.1 --port 8080
 ```
 When running the main.ipynb, a new experiment is created before the training process. The code contains the code for logging all relevant metrics for each run.
-
-
