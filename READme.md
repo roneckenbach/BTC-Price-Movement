@@ -9,8 +9,8 @@ This repository contains the code for predicting Bitcoin price movements using a
 ├── src/
 │ ├── data/
 │     └── BTC-USD.csv
-├── main.ipynb
 ├── .gitignore
+├── main.ipynb
 ├── README.md
 └── requirements.txt
 ```
