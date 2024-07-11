@@ -6,8 +6,7 @@ This repository contains the code for predicting Bitcoin price movements using a
 
 ```bash
 │
-├── src/
-│ ├── data/
+├── data/
 │     └── BTC-USD.csv
 ├── .gitignore
 ├── main.ipynb
