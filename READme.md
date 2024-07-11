@@ -15,7 +15,7 @@ This repository contains the code for predicting Bitcoin price movements using a
 └── requirements.txt
 ```
 ### Installation
-Use Python version 3.10.7 for this project. For reproducibility, create and activate a virtual environment using the following commands.
+Use Python version 3.10.7 for this project. For reproducibility, create and activate a virtual environment using the following commands:
 ```bash
 python -m venv venv
 .\venv\Scripts\activate
@@ -34,4 +34,5 @@ The project uses MLflow to record the training of the model with different param
 ```bash
 mlflow server --backend-store-uri sqlite:///mlflow.db --default-artifact-root ./mlruns --host 127.0.0.1 --port 8080
 ```
-When running the main.ipynb, a new experiment is created before the training process. The code contains the code for logging all relevant metrics for each run.
+The dashboard can be opened by following the link in the terminal or via the local host in the browser.
+When running the main.ipynb, a new experiment is created before the training process starts. The code contains the code for logging all relevant metrics for each run.
