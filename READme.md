@@ -21,7 +21,7 @@ python -m venv venv
 .\venv\Scripts\activate
 ```
 For further instructions, visit: https://docs.python.org/3/library/venv.html.<br>
-Once the virtual environment created and active, install the required libraries using the following command:
+Once the virtual environment is created and active, install the required libraries using the following command:
 
 ```bash
 pip install -r requirements.txt
