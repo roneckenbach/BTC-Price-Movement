@@ -4,7 +4,7 @@ mlflow server --backend-store-uri sqlite:///mlflow.db --default-artifact-root ./
 
 # BTC Price Movement Prediction
 
-Dieses Repository enthält den Code für die Vorhersage der Bitcoin-Preisbewegung unter Verwendung von CNNs und LSTM-Modellen. Die Modelle werden mit historischen Preisdaten und technischen Indikatoren trainiert, um die zukünftige Preisbewegung vorherzusagen.
+Dieses Repository enthält den Code für die Vorhersage der Bitcoin-Preisbewegung unter Verwendung eines hybriden CNN- LSTM-Modells. Das Modell wird mit historischen Preisdaten und technischen Indikatoren trainiert, um die zukünftige Preisbewegung vorherzusagen.
 
 ### Projektstruktur
 
