@@ -26,12 +26,6 @@ Once the virtual environment is created and active, install the required librari
 ```bash
 pip install -r requirements.txt
 ````
-If the installation using the requirements.txt file does not work, use this command:
-```bash
-pip install pandas numpy seaborn matplotlib scikit-learn tensorflow mlflow ta
-
-```
-
 
 ### MLflow Lifecycle Management
 
