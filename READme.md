@@ -15,7 +15,12 @@ This repository contains the code for predicting Bitcoin price movements using a
 └── requirements.txt
 ```
 ### Installation
-Use Python version 3.10.7 for this project. For reproducibility, create a virtual environment. For further instructions, visit: https://docs.python.org/3/library/venv.html.
+Use Python version 3.10.7 for this project. For reproducibility, create a virtual environment.
+```bash
+python -m venv venv
+.\venv\Scripts\activate
+```
+ For further instructions, visit: https://docs.python.org/3/library/venv.html.
 Once the virtual environment created and active, install the required libraries using the following command:
 
 ```bash
