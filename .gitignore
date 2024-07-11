@@ -1,4 +1,4 @@
-/venv
 /mlruns
+/venv
 /mlflow.db
 
